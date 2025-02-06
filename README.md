@@ -7,7 +7,7 @@ With $55M raised for the project the Incentive reward program is currently ongoi
 Browser Connection: https://node.hyper.space/
 Desktop App: https://hyper.space/downloads
 
-Step 1.         wsl --install
+Step 1          wsl --install
 
 Step 2          curl https://download.hyper.space/api/install | bash
 
