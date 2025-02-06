@@ -7,24 +7,49 @@ With $55M raised for the project the Incentive reward program is currently ongoi
 Browser Connection: https://node.hyper.space/
 Desktop App: https://hyper.space/downloads
 
-Step 1          wsl --install
+# Install Hyperspace node on your VPS
 
-Step 2          curl https://download.hyper.space/api/install | bash
+Step 1  : 
 
-Step 3          aios-cli start
+    wsl --install
 
-Step 4          aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
+Step 2: 
 
-Step 5          pkill -f aios
+    curl https://download.hyper.space/api/install | bash
 
-Step 6 	        aios-cli start --connect
-                aios-cli hive connect
+Step 3  : 
 
-Extra Commands that you may need 
+    aios-cli start
 
-Connect to tier 5 : aios-cli hive select-tier 5
+Step 4  : Open a new terminal window before doing step 4
+
+    aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
+
+Step 5  : 
+
+    pkill -f aios
+
+Step 6 	: 
+
+    aios-cli start --connect
+
+    aios-cli hive connect
+    
+
+# Extra Commands that you may need:
 
 
-Check points : aios-cli hive points
+Connect to tier 5 : 
 
-Check Private and public key: aios-cli hive whoami
+    aios-cli hive select-tier 5
+
+
+Check points : 
+
+    aios-cli hive points
+
+Check Private and public key: 
+
+    aios-cli hive whoami
+
+Thanks !
